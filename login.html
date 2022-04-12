@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagem" href="https://pt.seaicons.com/wp-content/uploads/2015/08/wine-icon.png">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title> PurpleTech - Login </title>
+</head>
+
+<body>
+    <!--Cabeçalhos do Site -->
+    <div class="header">
+        <div class="container">
+            <img src="../esboco-vinicola-dias/img/wine.png" class="img1">
+            <ul class="navbar">
+                <li><a class="noline" href="Index.html">|Home</a></li>
+                <li><a class="noline" href="aboutus.html">|Sobre nós</a></li>
+                <li><a class="noline" href="register.html">|Cadastro</a></li>
+                <li><a class="noline" href="login.html">|Login</a></li>
+                <li><a class="noline" href="help.html">|Help</a></li>
+                <li><a class="noline" href="simulator.html">|Simulador</a></li>
+                <li><a class="noline" href="dashboard.html">|Dashboard</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Corpo do Site -->
+    <div class="banner_lg">
+
+        <div class="loginst">
+
+            <h4>Acesse o Portal</h4>
+
+            E-mail:<input type="text" placeholder="Digite seu e-mail" id="i_email">
+            <p></p>
+            Senha: <input type="password" placeholder="Digite sua Senha" id="i_senha">
+            <p></p>
+            <button onclick="bt2()" class="btn2">Entrar</button>
+            <p></p>
+            <h5>Esqueceu a senha?</h5>
+            <p id="acessar"></p>
+        </div>
+    </div>
+    <footer class="rodape"> Grupo 7 - Todos os Diretos Reservados - 2022</footer>
+</body>
+
+</html>
+<script>
+    function bt2() {
+
+        var acesso = Number(i_senha.value)
+
+        if (acesso <= 0) {
+
+            alert(`Senha Incorreta, digite novamente!`)
+        }
+        if(acesso == 1234){
+            alert(`Você acessou o seu portal >>>`)
+            alert(`Bem - Vindo (a)!`)
+        }
+    }
+</script>
