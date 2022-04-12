@@ -1,0 +1,227 @@
+/*Home*/
+
+body {
+    display: block;
+    background-color:#520e0f;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background-color: #ff6d6d86;
+    border-radius: 50px;
+}
+
+.header .container {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+}
+
+.img1 { 
+    width: 150px;
+    height: 150px;
+}
+
+.navbar {
+    width: 550px;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+    font-size: 20px;
+}
+.noline{
+    text-decoration: none;
+    color: white;
+}
+.rodape{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.banner{
+    background-image: url(../esboco-vinicola-dias/img/vinhedos.jpg);
+    height: 400px;
+    margin-top: 20px;  
+}
+.meio_fim{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 1%;
+    text-align: center;
+}
+.block1{
+    background-color: #ff6d6d;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    
+}
+.block2{
+    background-color: #ff6d6d;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+   
+}
+.block3{
+    background-color: #ff6d6d;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+#titulo{
+    text-align: center;
+}
+
+/*About us*/
+
+.banner_us{   
+    background-color: #ff6d6d;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.text1{
+    text-align: justify;
+    margin: auto;
+    margin-right: 30px;
+}
+.bout{
+    width: 40%;
+    height: 50%;
+}
+
+/*Register*/
+
+.banner_rg{
+    margin: auto;
+    border-radius: 20px;
+    background-color: #ff6d6d;
+    width: 30%;
+}
+.caduni{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.btn1{
+    background-color: #520e0f;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Login*/
+
+.banner_lg{
+    margin: auto;
+    border-radius: 20px;
+    background-color:#ff6d6d;
+    width: 30%;
+}
+.loginst{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 16px;    
+}
+.btn2{
+    background-color: #520e0f;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Help*/
+
+.banner_hp{ 
+    background-color:#ff6d6d;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+}
+.text2{
+    text-align: justify;
+    margin: auto;
+    
+}
+.btn3{
+    margin-left: 40%;
+    background-color: #520e0f;
+    color: white;
+    border-radius: 10px;
+}
+#i_desc{
+    width: 250px;
+    height: 100px;
+}
+#text3{
+    text-align: center;
+}
+
+/*Simulator*/
+
+.banner_cal{   
+    background-color: #ff6d6d;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.imgcal{
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+}
+.calculadora{
+    width: 40%;
+    height: 50%;
+}
+
+/*Dashboard*/
+
+.banner_dash{   
+    display: flex;
+    position: relative;
+    height: 40vh;
+    width: 40vw;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: #ff6d6d46;
+    border-radius: 12px;
+}
